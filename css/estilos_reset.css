@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(51, 51, 51);
+}
+p {
+  font-size: 1.8rem;
+}
+button {
+  font-size: 1.3rem;
+}
+a {
+  font-size: 1.3rem;
+}
+
+img {
+  z-index: 33;
+  position: relative;
+  width: 4rem;
+  height: auto;
+  right: -3px;
+  top: 7px;
+}
+
+.faixa {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bloco {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}

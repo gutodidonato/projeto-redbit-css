@@ -1,0 +1,148 @@
+.icon-fill {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #ddd;
+  position: relative;
+  overflow: hidden;
+}
+.icon-fill::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
+}
+
+.icon-fill:hover::before {
+  transform: scaleX(1);
+}
+
+/*
+=====================================
+                    BOTAO 8
+=====================================
+*/
+.icon-fill2 {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #ddd;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon-fill2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: all 1s;
+  background: white;
+}
+
+.icon-fill2:hover::before {
+  animation: dentroFora 1s linear;
+  transition: background cubic-bezier(1, 0, 0, 1);
+  background-color: red;
+}
+
+@keyframes dentroFora {
+  0% {
+    box-shadow: inset red 0px 0px 0px 0px;
+    background-color: white;
+  }
+  25% {
+    box-shadow: inset red 0px 0px 0px 5px;
+    background-color: white;
+  }
+  50% {
+    box-shadow: inset red 0px 0px 0px 15px;
+    background-color: white;
+  }
+  75% {
+    box-shadow: inset red 0px 0px 0px 25px;
+    background-color: white;
+  }
+  100% {
+    box-shadow: inset red 0px 0px 0px 30px;
+  }
+}
+
+/*
+=====================================
+                    BOTAO 9
+=====================================
+*/
+.icon-fill3 {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #ddd;
+  position: relative;
+  overflow: hidden;
+}
+.icon-fill3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 26, 255);
+  transform: scaleX(0);
+  transform-origin: bottom;
+  transition: transform 0.5s ease;
+}
+
+.icon-fill3:hover::before {
+  transform: scaleX(1);
+}
+
+/*
+=====================================
+                    BOTAO 10
+=====================================
+*/
+.icon-fill4 {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #ddd;
+  position: relative;
+  overflow: hidden;
+}
+.icon-fill4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(238, 255, 0);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease;
+}
+
+.icon-fill4:hover::before {
+  transform: scaleX(1);
+}
+
+/*
+=====================================
+                    BOTAO 11
+=====================================
+*/
