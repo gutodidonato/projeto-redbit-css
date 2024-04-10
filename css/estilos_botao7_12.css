@@ -30,8 +30,8 @@
 =====================================
 */
 .icon-fill2 {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
   border-radius: 50%;
   background-color: #ddd;
@@ -47,12 +47,12 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: all 1s;
+  transition: all 0.5s;
   background: white;
 }
 
 .icon-fill2:hover::before {
-  animation: dentroFora 1s linear;
+  animation: dentroFora 0.5s linear;
   transition: background cubic-bezier(1, 0, 0, 1);
   background-color: red;
 }
@@ -143,6 +143,60 @@
 
 /*
 =====================================
-                    BOTAO 11
+                    REDES SOCIAIS
 =====================================
 */
+/* Redes Sociais */
+.circle-button {
+  font-family: "Roboto", sans-serif;
+  color: #ccc;
+  display: inline-block;
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.circle-button:hover {
+  animation: circle-anim 0.3s ease forwards;
+  transition: all 0.4s ease;
+}
+
+.grow-container {
+  display: inline-block;
+  margin: 1em;
+}
+
+.to-red:hover {
+  background: #e5393f;
+}
+
+.to-twitter:hover {
+  background: #1da1f3;
+}
+
+.to-facebook:hover {
+  background: #3b5998;
+}
+
+.to-linkedin:hover {
+  background: #0077b5;
+}
+
+.to-reddit:hover {
+  background: #ff4500;
+}
+
+@keyframes circle-anim {
+  0% {
+  }
+
+  90% {
+    padding: 0.35em;
+    margin: -0.35em;
+  }
+
+  100% {
+    padding: 0.25em;
+    margin: -0.25em;
+  }
+}

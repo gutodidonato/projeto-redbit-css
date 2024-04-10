@@ -21,10 +21,10 @@ a {
 img {
   z-index: 33;
   position: relative;
-  width: 4rem;
+  width: 6rem;
   height: auto;
-  right: -3px;
-  top: 7px;
+  right: -17px;
+  top: 24px;
 }
 
 .faixa {
